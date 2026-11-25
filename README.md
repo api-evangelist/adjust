@@ -66,7 +66,7 @@
 
 Adjust provides a mobile measurement and fraud prevention platform that helps app developers and marketers track user acquisition, engagement, and revenue across mobile, web, CTV, and console. Their solutions include analytics, automation, deep linking, AI-driven insights, and robust security to prevent ad fraud. Adjust serves enterprises worldwide, offering customizable dashboards, real-time data, and integration with major ad networks and SDKs.
 
-**Areas:** Measurements · Analytics · Attribution · Deep Linking · Fraud Prevention · Mobile Marketing · AI Solutions · Gaming
+**Areas:** Measurements · Analytics · Attribution · Deep Linking · Fraud Prevention · Mobile Marketing · Gaming
 
 ## Adjust on APIs.io
 
@@ -74,7 +74,7 @@ Everything profiled for Adjust is published on APIs.io rather than in this repos
 
 ### APIs (6)
 
-- [Adjust API](https://apis.io/apis/adjust/adjust-api-2/) — Adjust mobile measurement and fraud prevention API documentation
+- [Adjust API](https://apis.io/apis/adjust/adjust-api/) — Adjust mobile measurement and fraud prevention API documentation
 - [Adjust Cost API](https://apis.io/apis/adjust/adjust-cost-api/) — The Cost API from Adjust — 1 operation(s) for cost.
 - [Adjust Dashboard API](https://apis.io/apis/adjust/adjust-dashboard-api/) — The Dashboard API from Adjust — 2 operation(s) for dashboard.
 - [Adjust Device Service API](https://apis.io/apis/adjust/adjust-device-service-api/) — The Device Service API from Adjust — 3 operation(s) for device service.
@@ -101,6 +101,16 @@ The data models the API reads and writes.
 Linked-data contexts for the provider's vocabulary.
 
 - [Adjust Context](https://apis.io/jsonld/adjust/adjust-context/)
+
+#### Overlays (5)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Adjust Cost Api Phrasing Overlay](https://apis.io/overlays/adjust/adjust-cost-api-phrasing-overlay/)
+- [Adjust Dashboard Api Phrasing Overlay](https://apis.io/overlays/adjust/adjust-dashboard-api-phrasing-overlay/)
+- [Adjust Device Service Api Phrasing Overlay](https://apis.io/overlays/adjust/adjust-device-service-api-phrasing-overlay/)
+- [Adjust Public Api Phrasing Overlay](https://apis.io/overlays/adjust/adjust-public-api-phrasing-overlay/)
+- [Adjust Reports Service Api Phrasing Overlay](https://apis.io/overlays/adjust/adjust-reports-service-api-phrasing-overlay/)
 
 #### Governance rules (1)
 
@@ -136,18 +146,18 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 30.8** — thin · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 30.9** — thin · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 69.6 |
-| Contract quality | 25.9 |
+| Discoverability | 80.4 |
+| Contract quality | 26.0 |
 | Contract governance | 22.0 |
-| Operational transparency | 52.6 |
+| Operational transparency | 47.6 |
 | Developer ergonomics | 35.7 |
-| Access clarity | 10.5 |
+| Access clarity | 8.5 |
 
-**Agent readiness 23.0** — agent-aware
+**Agent readiness 23.3** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -170,6 +180,12 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
 **Regulatory alignment 10.8** — Horizontal (data, software, accessibility, platform)
 
